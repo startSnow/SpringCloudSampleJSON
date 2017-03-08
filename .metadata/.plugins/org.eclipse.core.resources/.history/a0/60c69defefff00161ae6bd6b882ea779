@@ -1,0 +1,14 @@
+package cloud.ribbon_consumer;
+
+@SpringBootApplication
+@EnableDiscoveryClient
+public class RibbonApplication {
+	@Bean
+	@LoadBalanced
+	RestTemplate restTemplate() {
+		return new RestTemplate();
+	}
+	public static void main(String[] args) {
+		SpringApplication.run(RibbonApplication.class, args);
+	}
+}

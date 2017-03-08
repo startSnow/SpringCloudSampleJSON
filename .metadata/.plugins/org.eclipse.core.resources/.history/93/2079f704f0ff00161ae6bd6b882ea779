@@ -1,0 +1,5 @@
+package cloud.ribbon_consumer.web;
+
+public class ConsumerController {
+
+}

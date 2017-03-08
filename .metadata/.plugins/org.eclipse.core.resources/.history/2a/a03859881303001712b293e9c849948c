@@ -1,0 +1,11 @@
+package cloud.eureka_feign.api;
+@Component
+public class ComputeClientHystrix  implements ComputeClient{
+
+	@Override
+	public Integer add(Integer a, Integer b) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,11 @@
+package cloud.eureka_feign.api;
+
+@RestController
+public class ConsumerController {
+    @Autowired
+    ComputeClient computeClient;
+    @RequestMapping(value = "/add", method = RequestMethod.GET)
+    public Integer add() {
+        return computeClient.add(10, 20);
+    }
+}

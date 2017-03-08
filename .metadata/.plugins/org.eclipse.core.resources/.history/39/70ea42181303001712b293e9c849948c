@@ -1,0 +1,5 @@
+package cloud.ribbon_consumer.service;
+
+public class ComputeService {
+
+}

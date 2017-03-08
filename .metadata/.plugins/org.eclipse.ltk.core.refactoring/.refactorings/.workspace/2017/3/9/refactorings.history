@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;ribbon-consumer&apos; to &apos;eureka-ribbon&apos;&#x0A;- Original element: &apos;ribbon-consumer&apos;&#x0A;- Renamed element: &apos;ribbon-consumer&apos;&#x0A;- Update references to refactored element" description="Rename Java project &apos;ribbon-consumer&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=ribbon-consumer" name="eureka-ribbon" references="true" stamp="1488532039146" version="1.0"/>
+</session>
